@@ -5,14 +5,17 @@ public class quest01 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
+        float valorET;
+        float valorGA;
+
         System.out.println("Preço da gasolina: ");
-        double valorGA = scan.nextDouble(); 
+        valorGA = scan.nextFloat(); 
         System.out.println("Preço do etanol: ");
-        double valorET = scan.nextDouble(); 
+        valorET = scan.nextFloat(); 
 
-        double calculo = valorET/valorGA;
+        
 
-        if(calculo <= 0.7){
+        if( valorET/valorGA <= 0.7){
             System.out.println("Abasteca com etanol! ");
 
         }else{
