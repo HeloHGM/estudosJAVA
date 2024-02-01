@@ -1,4 +1,4 @@
-package aulaPOO;
+
 import java.util.Scanner;
 
 public class quest01 {
