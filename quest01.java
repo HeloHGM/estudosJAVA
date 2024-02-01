@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class quest01 {
@@ -13,8 +12,6 @@ public class quest01 {
         System.out.println("Preço do etanol: ");
         valorET = scan.nextFloat(); 
 
-        
-
         if( valorET/valorGA <= 0.7){
             System.out.println("Abasteca com etanol! ");
 
@@ -22,10 +19,6 @@ public class quest01 {
             System.out.println("Abasteca com gasolina! ");
 
         }
-
-
-
-
 
 
         scan.close();
