@@ -1,3 +1,4 @@
+package estudo;
 public class curso01 {
     public static void main(String[] args) {
         String nome = "goku";
